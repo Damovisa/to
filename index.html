@@ -1,0 +1,52 @@
+<html>
+
+<head>
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+        }
+        a {
+            text-decoration: none;
+            color: #222;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            height: calc(100vh - 10px);
+            align-items: center;
+        }
+
+        .tile {
+            flex: 1 1 calc(50% - 20px);
+            margin: 5px;
+            text-align: center;
+        }
+        .content {
+            padding: 30px;
+            font-size: 3em;
+        }
+        .content img {
+            width: 20%;
+            padding-right: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="tile">
+            <div class="content"><a href="/mastodon"><img src="images/Mastodon_logo.svg"><br/>Mastodon</a></div>
+        </div>
+        <div class="tile">
+            <div class="content"><a href="/twitter"><img src="images/Twitter_logo.svg"><br/>Twitter</a></div>
+        </div>
+        <div class="tile">
+            <div class="content"><a href="/linkedin"><img src="images/LinkedIn_logo.svg"><br/>LinkedIn</a></div>
+        </div>
+        <div class="tile">
+            <div class="content"><a href="/instagram"><img src="images/Instagram_logo.svg"><br/>Instagram</a></div>
+        </div>
+    </div>
+</body>
+
+</html>
