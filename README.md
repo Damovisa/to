@@ -4,7 +4,8 @@ A really simple JS redirect for your social media links
 ## Deployment
 1. Fork this repo
 2. Change the `index.html` files in each folder (and add more folders!)
-3. Go to the `Actions` tab and click the `I understand my workflows, go ahead and enable them` button to get your site deploying!
+3. Go to the `Settings` tab, select `GitHub Actions` option from the `Source` dropdown list.
+4. Go to the `Actions` tab and click the `I understand my workflows, go ahead and enable them` button to get your site deploying!
 
 ## Usage
 
